@@ -11,3 +11,11 @@ public class Main {
 }
 
 
+void main() {
+    System.out.println("Co chcesz robić po zakonczeniu szkły średniej?");
+    String name = scanner.nextLine();
+}
+
+
+
+
