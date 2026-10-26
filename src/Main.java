@@ -7,15 +7,14 @@ public class Main {
         System.out.println("Podaj poziom klasy (np. 2, bo 2BT)");
         int level = scanner.nextInt();
         System.out.println("Witaj " + name + ". Za " + (5 - level) + " lata będę pisał maturę!");
+
+
+        {
+            System.out.println("Co chcesz robić po uzyskaniu pełnoletności?");
+            String plan = scanner.nextLine();
+            System.out.println(plan);
+        }
     }
 }
-
-
-void main() {
-    System.out.println("Co chcesz robić po zakonczeniu szkły średniej?");
-    String name = scanner.nextLine();
-}
-
-
 
 
